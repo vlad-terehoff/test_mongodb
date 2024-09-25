@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "work-with-db"
+version = "0.1.0"
+description = ""
+authors = ["vlad-terehoff <tereh_off95@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+pydantic = "^2.9.2"
+python-dotenv = "^1.0.1"
+pydantic-settings = "^2.5.2"
+pymongo = "^4.9.1"
+motormongo = "^0.1.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
